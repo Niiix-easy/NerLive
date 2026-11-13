@@ -1,0 +1,45 @@
+nerlive/
+│
+├── src/
+│   ├── components/
+│   │   ├── ui/
+│   │   ├── live/
+│   │   ├── chat/
+│   │   ├── payments/
+│   │   └── subscriptions/
+│   │
+│   ├── pages/
+│   │   ├── home/
+│   │   ├── creator/
+│   │   ├── checkout/
+│   │   ├── live/
+│   │   ├── member/
+│   │   ├── creator-dashboard/
+│   │   └── admin/
+│   │
+│   ├── services/
+│   │   ├── payments/
+│   │   ├── streaming/
+│   │   ├── subscriptions/
+│   │   └── notifications/
+│   │
+│   ├── hooks/
+│   ├── contexts/
+│   ├── lib/
+│   └── types/
+│
+├── supabase/
+│   ├── migrations/
+│   ├── functions/
+│   │   ├── create-checkout/
+│   │   ├── payment-webhook/
+│   │   ├── create-live-token/
+│   │   ├── create-recording/
+│   │   └── creator-payout/
+│   └── seed.sql
+│
+├── tests/
+├── public/
+├── docs/
+├── .env.example
+└── README.md
